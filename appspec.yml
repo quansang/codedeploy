@@ -5,6 +5,8 @@ files:
     destination: /var/www/html/
   - source: /index.html
     destination: /home/ubuntu/
+  - source: /
+    destination: /home/ubuntu/project
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies

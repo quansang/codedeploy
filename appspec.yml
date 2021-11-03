@@ -7,6 +7,7 @@ files:
     destination: /home/ubuntu/
   - source: /
     destination: /home/ubuntu/project
+file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies

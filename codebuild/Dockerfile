@@ -5,6 +5,6 @@ RUN set -eux; \
     apt-get update; \
     apt-get install -y --no-install-recommends
 
-CMD ["nginx"]
+CMD ["nginx", "-g", "daemon off;"]
 
 EXPOSE 80 443

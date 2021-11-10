@@ -1,4 +1,4 @@
-FROM nginx:1.18.10
+FROM nginx:1.17.10
 
 # Software's Installation
 RUN set -eux; \
